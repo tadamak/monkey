@@ -82,6 +82,8 @@ let result = add(five, ten);
 		{token.SEMICOLON, ";"},
 		{token.LET, "let"},
 		{token.IDENT, "result"},
+		{token.ASSIGN, "="},
+		{token.IDENT, "add"},
 		{token.LPAREN, "("},
 		{token.IDENT, "five"},
 		{token.COMMA, ","},
