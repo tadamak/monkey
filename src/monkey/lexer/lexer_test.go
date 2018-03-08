@@ -1,8 +1,8 @@
 package lexer
 
 import (
+	"monkey/token"
 	"testing"
-	"token"
 )
 
 type expectedPair struct {
